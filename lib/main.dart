@@ -14,8 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Kasir RS',
       theme: ThemeData(
-        primaryColor: Colors.blueAccent,
-        scaffoldBackgroundColor: Colors.white,
+        primarySwatch: Colors.blue,
       ),
       home: const LoginPage(),
     );
