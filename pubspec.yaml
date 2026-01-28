@@ -17,6 +17,10 @@ dependencies:
   http: ^1.2.0
   shared_preferences: ^2.2.2
 
+  # 📊 CHARTS & VISUALIZATION (MODERN)
+  fl_chart: ^0.66.0  # Lebih modern dan compatible
+  intl: ^0.18.0      # Tetap pakai versi terbaru
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

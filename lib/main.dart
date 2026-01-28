@@ -29,8 +29,8 @@ class MyApp extends StatelessWidget {
           }
 
           return snapshot.data!
-              ? DashboardScreen()
-              : const LoginPage();
+              ? const DashboardScreen() // Tambahkan const di sini
+              : const LoginPage(); // Tambahkan const di sini
         },
       ),
     );
